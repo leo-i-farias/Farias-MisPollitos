@@ -24,4 +24,4 @@ En este caso se dispondrá de una paleta de [4 colores](https://www.colorhunt.co
 
 ![rojo](https://www.colorhexa.com/f9c4aa.png)
 ## Logo
-![logo](logo_sin_fondo.png)
+![logo](img/logo_sin_fondo.png)
