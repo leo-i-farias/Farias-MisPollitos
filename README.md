@@ -24,5 +24,4 @@ En este caso se dispondrá de una paleta de [4 colores](https://www.colorhunt.co
 
 ![rojo](https://www.colorhexa.com/f9c4aa.png)
 ## Logo
-En los próximos días estaré subiendo el logo que está en proceso. Disculpe las molestias.
-![En construcción](https://sites.google.com/site/animalesdetodo/_/rsrc/1460681430021/pagina-en-construccion/sitio-en-construccion.jpg)
+![logo](logo_sin_fondo.png)
