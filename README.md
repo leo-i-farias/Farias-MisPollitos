@@ -26,7 +26,7 @@ En este caso se dispondrá de una paleta de [4 colores](https://www.colorhunt.co
 ## Logo
 ![logo](img/logo_sin_fondo.png)
 
-# Trabajo II- Sprint I - Bocetado de Wireframe
+# Trabajo II - Sprint I - Bocetado de Wireframe
 
 ## Vistas Figma
 Dentro de este repositorio se encuentra disponible la carpeta `FIGMA` que contiene las primeras vistas de lo que deberá ser la interfaz de esta página web, en versión de escritorio y de celular. A su vez se puede consultar el archivo completo de Figma por medio de este [enlace](https://www.figma.com/file/3d9o8ZO2NP2ZJRWfAzdT6B/Mis-Pollitos?node-id=0%3A1).
@@ -45,3 +45,7 @@ Por cuestiones de comodidad, se adjuntan enlaces de cada vista realizada:
 
 - [Registrarse - Escritorio](FIGMA/Register-desktop.pdf)
 - [Registrarse - Celular](FIGMA/Register-mobile.pdf)
+
+# Trabajo I - Sprint II - Template HTML y CSS
+
+Se encuentran disponibles las vistas de [Home](templates/home.html) y [Detail product](templates/detail_product.html) para una resolución Desktop, que posteriormente se irán adaptando a distintos dispositivos.
