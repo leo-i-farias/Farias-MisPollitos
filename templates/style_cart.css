@@ -208,7 +208,7 @@ section button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--amarillo);
 }
 .footer-logo img{
@@ -217,10 +217,14 @@ section button{
 }
 .footer-links{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 450px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150px;
     background-color: var(--amarillo);
+    position: relative;
+    left: 20px;
+    top: 110px;
 }
 .footer-links li{
     list-style: none;
@@ -230,50 +234,72 @@ section button{
     text-decoration: none;
     color: black;
     background-color: var(--amarillo);
+    font-size: 14px;
 }
 .footer-links h3{
     font-family: var(--otros-textos);
-    font-size: 40px;
+    font-size: 22px;
     background-color: var(--amarillo);
 }
 .footer-redes{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--amarillo);
-    width: 450px;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    right: 140px;
 }
 .footer-redes h3{
     font-family: var(--otros-textos);
-    font-size: 40px;
-    flex-basis: 400px;
-    padding-left: 140px;
-    padding-bottom: 20px;
+    font-size: 38px;
     background-color: var(--amarillo);
 }
-.footer-redes img{
+.footer-redes a{
+    font-size: 30px;
+    color: black;
+}
+.footer-redes span{
     background-color: var(--amarillo);
+}
+.footer-logo{
+    position: relative;
+    right: 140px;
+    top: 30px;
 }
 .footer-logo img{
     background-color: var(--amarillo);
 }
 .footer-copyright{
+    display: flex;
+    position: relative;
+    top: 110px;
     background-color: var(--amarillo);
+    font-size: small;
 }
 .footer-nuevo-cliente{
     display: flex;
-    width: 300px;
+    width: 120px;
+    background-color: var(--amarillo);
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+}
+.footer-nuevo-cliente i{
+    font-size: 20px;
     background-color: var(--amarillo);
 }
-.footer-nuevo-cliente h2{
+.footer-nuevo-cliente i span{
     font-family: var(--titulos);
-    font-size: 40px;
-    background-color: var(--amarillo);
+    font-size: 20px;
+    background-color: transparent;
 }
 .footer-nuevo-cliente img{
     background-color: var(--amarillo);
 }
 .null{
-    padding-left: 250px;
+    /*padding-left: 250px;*/
 }
 /****************************************/
