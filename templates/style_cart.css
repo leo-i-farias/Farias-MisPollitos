@@ -29,7 +29,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .header-menu-search{
     display: flex;
@@ -45,15 +45,15 @@ header{
 }
 .header-logo{
     background-color: var(--amarillo);
-    width: 10%;
+    width: 20%;
     height: 100%;
     position: relative;
-    right: 140px;
+    left: 50px;
 }
 .logo_imagen{
     background-color: var(--amarillo);
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     padding-bottom: 10px;
 }
 .header-menu-search input{
@@ -66,9 +66,21 @@ header{
     font-family: var(--otros-textos);
     font-size: 36px;
 }
+.header-menu-search i{
+    font-size: 40px;
+    background-color: transparent;
+    position: relative;
+    left: 5px;
+}
 .header-buttons{
     display: flex;
     background-color: var(--amarillo);
+    width: 120px;
+    justify-content: space-around;
+}
+.header-buttons i{
+    font-size: 40px;
+    background-color: transparent;
 }
 /**************************************/
 
