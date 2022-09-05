@@ -1,0 +1,27 @@
+{
+  "name": "farias-mispollitos",
+  "version": "1.0.0",
+  "description": "**Mis Pollitos** es una tienda virtual dedicada a la *venta al por mayor y menor de indumentaria, calzado y accesorios para bebés.* Contamos con una gran variedad para los más pequeños de la casa, desde un conjunto recibidor para un recién nacido, pasando por enteritos, camperas, buzos, camisetas, pantalones, hasta la ropa interior para aquellos que dejan sus pañales, por poner algunos ejemplos. Disponemos de variados *métodos de pago*, como así también de *envío a domicilio y punto de retiro*.\r ## Público objetivo\r Las ventas están enfocadas para bebés de hasta 2 años inclusive.\r ## Tipografías\r Las tipografías utilizadas para la creación de la página son:\r - [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas).\r - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans).\r - [Square Peg](https://fonts.google.com/specimen/Square+Peg).\r ## Paleta de colores\r En este caso se dispondrá de una paleta de [4 colores](https://www.colorhunt.co/palette/f7f4e3d2e1c8fee4a6f9c4aa) de los siguientes grupos:\r - Beige(#F7F4E3)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "starting": "npx nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-i-farias/Farias-MisPollitos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leo-i-farias/Farias-MisPollitos/issues"
+  },
+  "homepage": "https://github.com/leo-i-farias/Farias-MisPollitos#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
