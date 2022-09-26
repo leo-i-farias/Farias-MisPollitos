@@ -4,21 +4,10 @@ const PORT = 3000;
 const path = require('path');
 
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, './views'));
 
-app.get('/', (req, res) =>{
-    res.send("Estamos en la vista Home");
-})
-app.get('/detail-product', (req, res) =>{
-    res.send("Estamos en la vista Detail Product");
-})
-app.get('/cart', (req, res) =>{
-    res.send("Estamos en la vista Cart");
-})
-app.get('/log-in', (req, res) =>{
-    res.send("Estamos en la vista Log In");
-})
-app.get('/register', (req, res) =>{
-    res.send("Estamos en la vista Register");
-})
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(require('./routes/route'));
 
 app.listen(PORT, () => console.log("Servidor escuchando en el puerto", PORT));
