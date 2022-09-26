@@ -1,1 +1,19 @@
-Hola
+<!DOCTYPE html>
+<html lang="es">
+    <%-include('./partials/head', {"titulo": "Registrarse", "css": "register"})%>
+<body>    
+    <%-include('./partials/header')%>
+    <main>
+        <form>
+            <h1>CONVERTITE EN NUESTRO CLIENTE</h1>
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="last-name" placeholder="Apellido">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="text" name="date-birth" placeholder="Fecha de nacimiento">
+            <input type="password" name="password" placeholder="Contraseña">
+            <button type="submit">REGISTRARSE</button>
+        </form>
+    </main>
+<%-include('./partials/footer')%>
+</body>
+</html>
